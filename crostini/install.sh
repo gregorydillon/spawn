@@ -1,8 +1,8 @@
 # Don't run as sudo!
-if [ "$EUID" -eq 0 ]; then
-  echo "Must not run as sudo!"
-  exit 1
-fi
+#if [ "$EUID" -eq 0 ]; then
+#  echo "Must not run as sudo!"
+#  exit 1
+#fi
 
 # Must run from project root.
 
@@ -14,7 +14,7 @@ fi
 
 # Core
 
-sudo apt-get update
+apt-get update
 
 #./packages/dotfiles.sh
 
@@ -28,7 +28,7 @@ sudo apt-get update
 
 # Development
 
-sudo apt-get install \
+apt install \
   git                \
   httpie             \
   imagemagick        \
