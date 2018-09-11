@@ -20,11 +20,11 @@ sudo apt-get update
 
 # Personal
 
-./packages/discord.sh
-./packages/runelite.sh
-./packages/slack.sh
+#./packages/discord.sh
+$./packages/runelite.sh
+#./packages/slack.sh
 
-./crostini/packages/steam.sh
+#./crostini/packages/steam.sh
 
 # Development
 
