@@ -16,7 +16,7 @@ fi
 
 sudo apt-get update
 
-./packages/dotfiles.sh
+#./packages/dotfiles.sh
 
 # Personal
 
